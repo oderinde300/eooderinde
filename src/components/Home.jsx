@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Avatar from "../images/avatar.png";
 
 const NAV_LINK_CLASSES = "hover:text-zinc-300";
 const DONATE_BUTTON_CLASSES =
@@ -196,7 +197,8 @@ const Home = () => {
           </div>
           <div className="hidden lg:flex items-center justify-end">
             <img
-              src="/images/avatar.png"
+              // src="/images/avatar.png"
+              src={Avatar}
               alt="my picture"
               className="max-h-[400px]"
             />
