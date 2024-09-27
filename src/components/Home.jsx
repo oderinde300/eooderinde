@@ -25,6 +25,31 @@ const Home = () => {
     });
   };
 
+  const projects = [
+    {
+      project:
+        "Multiple Logistic Regression Model For Predicting Heart Disease Using Machine Learning",
+      link: "https://colab.research.google.com/drive/1IoPOoKgyFBaGPs2j2YKpTjCMDISMng8m?usp=sharing",
+    },
+    {
+      project: "Faster Taxi Tip Prediction using Snap ML",
+      link: "https://colab.research.google.com/drive/16mCs8dC8Jy9GfLL-Mw7A9qXrnV88zgmH?usp=sharing",
+    },
+    {
+      project:
+        "Lung Cancer Model Comparison using R (Logit and Probit Comparison)",
+      link: "https://github.com/oderinde300/Lung-cancer",
+    },
+    {
+      project: "Analysis on the Prevalence of Asthma and Allergic Rhinitis",
+      link: "https://github.com/oderinde300/Asthma-prevalence",
+    },
+    {
+      project:
+        "2017 Global Index Indicator Table Using Tidyverse and Quarto in R",
+      link: "https://github.com/oderinde300/Quarto-Projects/blob/main/Tidyverse%20Project.pdf",
+    },
+  ];
   const certificates = [
     {
       school: "University of Michigan, Coursera",
@@ -168,6 +193,8 @@ const Home = () => {
             <a
               href="https://www.linkedin.com/in/oderinde-emmanuel-b43913184/"
               className={NAV_LINK_CLASSES}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>
@@ -190,7 +217,14 @@ const Home = () => {
               of Technology Akure, Nigeria.
             </h1>
             <div className="mt-10">
-              <a href="#" className={`${READ_MORE_BUTTON_CLASSES}`}>
+              <a
+                href="#"
+                className={`${READ_MORE_BUTTON_CLASSES}`}
+                onClick={() => {
+                  scrollUp();
+                  setActiveTab("Research");
+                }}
+              >
                 Research
               </a>
             </div>
@@ -231,7 +265,7 @@ const Home = () => {
                 Peer-reviewed Journal Articles
               </p>
               <div className="flex flex-col space-y-4">
-                <p>
+                {/* <p>
                   <span className="font-semibold">Z. Chen</span> (2022) "Robust
                   tests for combining p-values under arbitrary dependency
                   structures".{" "}
@@ -239,14 +273,35 @@ const Home = () => {
                     Scientific Reports
                   </span>
                   , 12, Article number: 3158.
+                </p> */}
+                <p>
+                  Oderinde, E. O., Adeoti, O. A. (2024), Statistical Analysis of
+                  the Prevalence and Predictors of Asthma and Allergic Rhinitis
+                  in Nigeria. Advanced Journal of Science, Technology and
+                  Engineering 4(4), 10-22.{" "}
+                  <a
+                    href="https://abjournals.org/ajste/papers/volume-4/issue-4/statistical-analysis-on-the-prevalence-and-predictors-of-asthma-and-allergic-rhinitis-in-nigeria/"
+                    className="underline text-blue-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://doi.org/10.52589/ajstega5axydb
+                  </a>
                 </p>
                 <p>
-                  <span className="font-semibold">Z. Chen</span> (2022) "Optimal
-                  tests for combining p-values".{" "}
-                  <span className="font-semibold underline italic">
-                    Applied Sciences
-                  </span>
-                  , 12(1), 322.
+                  Kasali, W.A., Ogunjoun, B.O., Olakehinde, A.O., Oderinde, E.O.
+                  and Salam, A.O. (2024) Estimating the Likelihood of Cancer
+                  Occurrence Based on Patient Data and Lifestyle Factors: A
+                  Comparison between Logit and Probit Regression. Open Access
+                  Library Journal, 11: e11905.{" "}
+                  <a
+                    href="https://doi.org/10.4236/oalib.1111905"
+                    className="underline text-blue-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://doi.org/10.4236/oalib.1111905
+                  </a>
                 </p>
               </div>
             </div>
@@ -259,6 +314,7 @@ const Home = () => {
             <div className="py-4">
               <p className="font-semibold text-xl mb-2">Research Interests</p>
               <div className="flex flex-col space-y-4">
+                <p>Statistical Analysis and Data Science</p>
                 <p>Biostatistics</p>
                 <p>Statistical Genetics</p>
                 <p>Disease Simulation</p>
@@ -290,9 +346,49 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-1">
                       <p className="text-base font-bold">{certificate?.date}</p>
-                      <a href={certificate?.certificate}>
+                      <a
+                        href={certificate?.certificate}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <span className="text-base cursor-pointer text-blue-500">
                           Certificate
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
+        {activeTab === "Projects" && (
+          <>
+            <p className="text-2xl font-bold">Projects</p>
+            <div className="">
+              <div className="py-4 flex flex-col space-y-4 w-full md:w-1/2">
+                {projects.map((project, index) => (
+                  <div className="flex gap-6 items-start justify-between">
+                    <div className="flex flex-col gap-1" key={index}>
+                      <div className="flex gap-1 items-center">
+                        {/* <span>{index + 1}.</span> */}
+                        <span className="text-base font-bold">
+                          {project?.project}
+                        </span>
+                      </div>
+                      {/* <span className="text-base italics">
+                        {project?.project}
+                      </span> */}
+                    </div>
+                    <div className="flex flex-col gap-1">
+                      {/* <p className="text-base font-bold">{project?.link}</p> */}
+                      <a
+                        href={project?.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="text-base cursor-pointer text-blue-500">
+                          View
                         </span>
                       </a>
                     </div>
