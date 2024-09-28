@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/eooderinde/static/css/main.9ac17b73.css",
-    "main.js": "/eooderinde/static/js/main.086e131f.js",
+    "main.js": "/eooderinde/static/js/main.b88bf924.js",
     "static/js/453.d13ab830.chunk.js": "/eooderinde/static/js/453.d13ab830.chunk.js",
     "static/media/avatar.png": "/eooderinde/static/media/avatar.627b15b9d750e4ef4979.png",
     "index.html": "/eooderinde/index.html",
     "main.9ac17b73.css.map": "/eooderinde/static/css/main.9ac17b73.css.map",
-    "main.086e131f.js.map": "/eooderinde/static/js/main.086e131f.js.map",
+    "main.b88bf924.js.map": "/eooderinde/static/js/main.b88bf924.js.map",
     "453.d13ab830.chunk.js.map": "/eooderinde/static/js/453.d13ab830.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ac17b73.css",
-    "static/js/main.086e131f.js"
+    "static/js/main.b88bf924.js"
   ]
 }
