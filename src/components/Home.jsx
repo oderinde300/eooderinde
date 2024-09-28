@@ -54,77 +54,77 @@ const Home = () => {
     {
       school: "University of Michigan, Coursera",
       course: "Data Science for Health Research Specialization",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/specialization/certificate/QWL696YTPJ3Q",
     },
     {
       school: "University of Michigan, Coursera",
       course: "Analysing and Visualizing Data in R",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/ZWQQ6KXYCZRP",
     },
     {
       school: "University of Michigan, Coursera",
       course: "Linear Regression Modelling for Health Research",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/MBEPAQZKB8JK",
     },
     {
       school: "University of Michigan, Coursera",
       course: "Logistic Regression and Prediction for Health Data",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/6N6XXRFTUZ9G",
     },
     {
       school: "Imperial College London, Coursera",
       course: "Survival Analysis in R for Public Health",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/X4QXSV33NCZC",
     },
     {
       school: "Imperial College London, Coursera",
       course: "Epidemiology for Public Health Specialization",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/specialization/certificate/U65HHE9HHFA6",
     },
     {
       school: "Imperial College London, Coursera",
       course: "Study Designs in Epidemiology",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/R6N8N6LYWU2S",
     },
     {
       school: "Imperial College London, Coursera",
       course: "Measuring Disease Epidemiology",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/verify/KY3ZRQRANLES",
     },
     {
       school: "Imperial College London, Coursera",
       course: "Validity of Bias in Epidemiology",
-      date: "July, 2024",
+      date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/6FMN3EXHLCD2",
     },
     {
       school: "IBM, Coursera",
       course: "Machine Learning with Python",
-      date: "July, 2024",
+      date: "June, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/48M44M8UFK74",
     },
     {
       school: "Project work, Coursera",
       course: "Essential Causal Inference Techniques for Data Science",
-      date: "July, 2024",
+      date: "June, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/DGS33YE3RBZC",
     },
