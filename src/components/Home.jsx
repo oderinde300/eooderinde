@@ -52,6 +52,20 @@ const Home = () => {
   ];
   const certificates = [
     {
+      school: "IBM, Coursera",
+      course: "Machine Learning with Python",
+      date: "June, 2024",
+      certificate:
+        "https://www.coursera.org/account/accomplishments/certificate/48M44M8UFK74",
+    },
+    {
+      school: "Project work, Coursera",
+      course: "Essential Causal Inference Techniques for Data Science",
+      date: "June, 2024",
+      certificate:
+        "https://www.coursera.org/account/accomplishments/certificate/DGS33YE3RBZC",
+    },
+    {
       school: "University of Michigan, Coursera",
       course: "Data Science for Health Research Specialization",
       date: "May, 2024",
@@ -113,20 +127,6 @@ const Home = () => {
       date: "May, 2024",
       certificate:
         "https://www.coursera.org/account/accomplishments/certificate/6FMN3EXHLCD2",
-    },
-    {
-      school: "IBM, Coursera",
-      course: "Machine Learning with Python",
-      date: "June, 2024",
-      certificate:
-        "https://www.coursera.org/account/accomplishments/certificate/48M44M8UFK74",
-    },
-    {
-      school: "Project work, Coursera",
-      course: "Essential Causal Inference Techniques for Data Science",
-      date: "June, 2024",
-      certificate:
-        "https://www.coursera.org/account/accomplishments/certificate/DGS33YE3RBZC",
     },
   ];
 
